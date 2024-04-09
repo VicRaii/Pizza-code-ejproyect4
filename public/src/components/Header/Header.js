@@ -1,25 +1,29 @@
+import { About } from "../pages/About/About";
+import { Contact } from "../pages/Contact/Contact";
+import { Delivery } from "../pages/Delivery/Delivery";
+import { Pizzas } from "../pages/Pizzas/Pizzas";
 import "./Header.css";
 
 const arrayEnlaces = [
   {
     url: "#",
     texto: "Pizzas",
-    // componente: Pizzas()
+    page: Pizzas
   },
   {
     url: "#",
     texto: "Delivery",
-    // componente: Pizzas()
+    page: Delivery
   },
   {
     url: "#",
     texto: "About",
-    // componente: Pizzas()
+    page: About
   },
   {
     url: "#",
     texto: "Contact",
-    // componente: Pizzas()
+    page: Contact
   },
 ];
 
@@ -36,6 +40,9 @@ export const Header = () => {
     const a = document.createElement("a");
     a.href = enlace.url;
     a.textContent = enlace.texto;
+
+    a.addEventListener("click", enlace.page);
+
     li.appendChild(a);
     ul.appendChild(li);
   }

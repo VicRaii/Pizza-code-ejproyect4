@@ -3,7 +3,11 @@ import "./Pizzas.css";
 export const Pizzas = () => {
   const divApp = document.querySelector("#app");
 
-  divApp.innerHTML = `<h1>Pizzas page</h1>`;
+  const tabla = document.createElement("img");
+
+  tabla.src = "/assets/tabla.png";
+  tabla.className = "tabla";
+
+  divApp.appendChild(tabla);
 };
 
-//! 1:21 Directo
