@@ -17,5 +17,3 @@ export const createFoodImage = (array) => {
     document.body.innerHTML += stringFinal;
   }
 };
-
-//! 1:06 directo

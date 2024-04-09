@@ -1,0 +1,19 @@
+header {
+  padding: var(--pc-padding-xl);
+  position: sticky;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #000;
+}
+
+header ul {
+  display: flex;
+  gap: var(--pc-gap-l);
+}
+
+header a {
+  color: var(--pc-textColor);
+  font-weight: 700;
+}
