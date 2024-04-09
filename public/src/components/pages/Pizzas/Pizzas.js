@@ -1,0 +1,1 @@
+import "./Pizzas.css";
