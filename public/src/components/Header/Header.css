@@ -1,11 +1,11 @@
 header {
   padding: var(--pc-padding-xl);
-  position: sticky;
+  position: absolute;
+  top: 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid #000;
 }
 
 header ul {
@@ -16,4 +16,11 @@ header ul {
 header a {
   color: var(--pc-textColor);
   font-weight: 700;
+}
+
+#app {
+  padding-top: 200px ;
+  position: relative;
+  z-index: 2;
+  height: 100svh;
 }
