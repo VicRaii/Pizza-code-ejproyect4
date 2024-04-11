@@ -9,6 +9,3 @@ import "./style.css";
 Header();
 Pizzas();
 createFoodImage(foodImageArray);
-
-//! 1:46 
-

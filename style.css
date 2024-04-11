@@ -49,3 +49,24 @@ body {
   height: 100svh;
   overflow: hidden;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--pc-bgColor);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--pc-special-color);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--pc-textColor);
+}
