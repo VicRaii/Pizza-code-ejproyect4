@@ -5,5 +5,3 @@ export const Pizzas = () => {
 
   divApp.innerHTML = `<h1>Pizzas page</h1>`;
 };
-
-//! 1:21 Directo
